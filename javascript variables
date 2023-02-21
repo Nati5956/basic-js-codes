@@ -1,0 +1,18 @@
+const nums1 = [1, 2, 3, 4, 5];
+const nums2 = [6, 7, 8];
+nums1.unshift(0);
+nums2.push(9);
+const num3 = nums1.concat(nums2);
+const number = 100;
+
+let arr = num3[1];
+console.log(arr);
+
+
+console.log(num3);
+console.log(num3.length);
+console.log(Array.isArray(num3));
+console.log(Array.isArray(number));
+
+console.log(nums1.toString());
+console.log(num3.slice(2,4));
